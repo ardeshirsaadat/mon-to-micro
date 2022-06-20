@@ -16,7 +16,7 @@ spec:
         api: external        
     spec:
       containers:
-      - image: ardeshirdockerz/udagram-frontend
+      - image: ardeshirdockerz/udagram-frontend:v7
         name: frontend
         imagePullPolicy: Always          
         ports:
